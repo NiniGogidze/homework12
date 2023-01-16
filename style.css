@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.head {
+    width: 1440px;
+    height: 53px;
+}
+.circle {
+    width: 27px;
+    height: 27px;
+    border: 8px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+
+li {
+    margin-right: 10px;
+    color: black;
+}
+
+li:last-child{
+    margin-right: 0;
+}
+
+nav ul li {
+    border-right: 1px solid;
+    height: 15px;
+    padding-right: 15px;
+}
+
+h1 {
+    padding-left: 150px;
+    padding-top: 120px;
+}
+
+p {
+    padding-left: 150px;
+}
+
+.paragraph {
+    padding-top: 50px;
+}
+
+.contact {
+    padding-top: 20px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+a {
+    color: black;
+    padding-left: 150px;
+    padding-top: 5px;
+}
+
+.form {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    left: 570px;
+}
+
+.input-box {
+    margin-top: 20px;
+    margin-left: 360px;
+    margin-bottom: 20px;
+}
+
+
+input {
+    border: none;
+    border-bottom: 1px solid #003d61;
+    background: transparent;
+    outline: none;
+    width: 400px;
+    height: 80px;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid #003d61;
+    background: transparent;
+    outline: none;
+    width: 400px;
+    height: 140px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.orange {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.orange-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5d15;
+    padding: 12px 13px;
+    border-radius: 3px;
+}
+.orange-btn span {
+    font-size: 12px;
+    vertical-align: middle;
+  }
+.orange-btn span::before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: #F7F7F7;
+    }
+    
+    h1 {
+        padding-left: 10px;
+        padding-top: 120px;
+    }
+
+    p {
+        padding-left: 10px;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+    form {
+        position: absolute;
+        top: 450px;
+        right: 550px;
+    }
+
+    .orange {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 500px;
+        margin-bottom: 120px;
+    }
+}
+   
